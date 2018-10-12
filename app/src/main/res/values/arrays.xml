@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--String Array Label-->
+    <string-array name="settings_order_by_labels">
+        <item>@string/settings_order_label_numof</item>
+        <item>@string/settings_order_label_recent</item>
+    </string-array>
+
+    <!--String Array Value-->
+    <string-array name="settings_order_by_values">
+        <item>@string/settings_order_value_numof</item>
+        <item>@string/settings_order_value_recent</item>
+    </string-array>
+</resources>

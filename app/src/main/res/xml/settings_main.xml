@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <!--Settings Preferences List-->
+    <ListPreference
+        android:defaultValue="@string/settings_dflt_orderby"
+        android:entries="@array/settings_order_by_labels"
+        android:entryValues="@array/settings_order_by_values"
+        android:key="@string/settings_key_orderby"
+        android:title="@string/settings_label_orderby" />
+
+    <!--Settings Preferences Edit Text-->
+    <EditTextPreference
+        android:defaultValue="@string/settings_dflt_numof"
+        android:inputType="number"
+        android:key="@string/settings_key_numof"
+        android:selectAllOnFocus="true"
+        android:title="@string/settings_label_numof" />
+
+</PreferenceScreen>

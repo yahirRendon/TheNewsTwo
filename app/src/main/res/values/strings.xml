@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">The News Two</string>
+    <!--Inform of no internet connection-->
+    <string name="no_internet_connection">No internet connection. Check internet settings</string>
+    <!--Inform no articles to load-->
+    <string name="no_articles_found">No news found. Check later.</string>
+    <!--Settings title onClick-->
+    <string name="settings_menu_title">Settings</string>
+    <!--Settings Menu Title-->
+    <string name="settings_title">The News Settings</string>
+    <!--Settings label for order by-->
+    <string name="settings_label_orderby">Order By</string>
+    <!--Settings key for order by-->
+    <string name="settings_key_orderby" translatable="false">order_by</string>
+    <!--Settings default for order by-->
+    <string name="settings_dflt_orderby" translatable="false">@string/settings_order_value_recent</string>
+    <!--Settings label for number of articles-->
+    <string name="settings_label_numof">Number of articles</string>
+    <!--Settings key for number of articles-->
+    <string name="settings_key_numof" translatable="false">number_of_articles</string>
+    <!--Settings default for number of articles-->
+    <string name="settings_dflt_numof" translatable="false">0</string>
+    <!--Settings order label for order by number of articles-->
+    <string name="settings_order_label_numof">Number of articles</string>
+    <!--Settings order value for order by number of articles-->
+    <string name="settings_order_value_numof" translatable="false">articles</string>
+    <!--Settings order lable for most recent-->
+    <string name="settings_order_label_recent">Most Recent</string>
+    <!--Settings value for order by recent-->
+    <string name="settings_order_value_recent" translatable="false">time</string>
+</resources>
